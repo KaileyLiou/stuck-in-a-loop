@@ -1,6 +1,7 @@
-if (obj_player.x > room_width) {
+var loop_point = room_width - 40;
+
+if (obj_player.x >= loop_point) {
     loop_count += 1;
-    
-    obj_player.x = 64;
-    obj_player.y = 150;
+
+    obj_player.x = 40;
 }
