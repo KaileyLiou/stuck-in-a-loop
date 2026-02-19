@@ -23,3 +23,15 @@ if (place_meeting(x, y + vsp, obj_block)) {
     vsp = 0;
 }
 y += vsp;
+
+if (shake_timer > 0) {
+    shake_timer--;
+}
+
+if (y > room_height + 50) {
+    room_restart();
+}
+
+if (place_meeting(x, y, obj_spike)) {
+    room_restart();
+}
