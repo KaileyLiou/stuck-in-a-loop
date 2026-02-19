@@ -1,4 +1,4 @@
-# Stuck in a loop
+# Stuck in a Loop
 
 A small platformer made in GameMaker:
 - The floor rises after each loop
@@ -15,4 +15,4 @@ Use the arrow keys to move up, left, down, and right. Use the space key to jump.
 
 ## Play the Game
 
-Try here: https:
+Try here: https://kaileyliou.itch.io/stuck-in-a-loop
