@@ -3,7 +3,7 @@
   "%Name":"spr_exit",
   "bboxMode":0,
   "bbox_bottom":47,
-  "bbox_left":16,
+  "bbox_left":22,
   "bbox_right":31,
   "bbox_top":32,
   "collisionKind":1,

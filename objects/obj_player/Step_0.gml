@@ -35,3 +35,8 @@ if (y > room_height + 50) {
 if (place_meeting(x, y, obj_spike)) {
     room_restart();
 }
+
+if (place_meeting(x, y, obj_exit) && obj_controller.loop_count >= 5) {
+    show_message("You Win!");
+    room_restart();
+}

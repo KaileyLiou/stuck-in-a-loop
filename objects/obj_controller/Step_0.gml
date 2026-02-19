@@ -12,6 +12,10 @@ if (obj_player.x >= loop_point && obj_player.x < loop_point + 5) {
 	with (obj_spike) {
 	    y -= rise_amount;
 	}
+	
+	with (obj_exit) {
+		y -= rise_amount;
+	}
 
     obj_player.y -= rise_amount;
 
